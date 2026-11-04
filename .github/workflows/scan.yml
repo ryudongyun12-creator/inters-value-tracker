@@ -16,6 +16,9 @@ jobs:
   scan:
     runs-on: ubuntu-latest
     timeout-minutes: 90
+    defaults:
+      run:
+        working-directory: inters_value_tracker
     steps:
       - uses: actions/checkout@v4
 
